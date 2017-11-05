@@ -1,0 +1,28 @@
+body,p,ul,div,a,span,input,img
+{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+#head
+{
+	height: 100px;
+	border: solid 1px black;
+}
+#head-left
+{
+	position: absolute;
+		left:13.08%;
+	width:500px;	
+}
+#head-right
+{
+	float: right;
+	width:500px;
+	margin-top:30px;
+	margin-right: 14%;
+}
+a
+{
+	text-decoration: none;
+}

@@ -1,0 +1,21 @@
+/*
+* @Author: YP
+* @Date:   2017-11-05 23:36:52
+* @Last Modified by:   YP
+* @Last Modified time: 2017-11-05 23:51:50
+*/
+#middle-nav
+{
+	position: absolute;
+	background: #0173a9;
+	height: 43px;
+	width: 100%;
+}
+.middle-nav-link
+{
+	color:#ffffff;
+}
+#middle-nav-links
+{
+margin-top:8px;
+}
