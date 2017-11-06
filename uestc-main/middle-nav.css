@@ -2,20 +2,106 @@
 * @Author: YP
 * @Date:   2017-11-05 23:36:52
 * @Last Modified by:   YP
-* @Last Modified time: 2017-11-05 23:51:50
+* @Last Modified time: 2017-11-06 21:24:40
 */
 #middle-nav
 {
-	position: absolute;
+	float: left;
 	background: #0173a9;
 	height: 43px;
 	width: 100%;
+	z-index: -1;
+	border-bottom: 1px solid #ffffff;
 }
+.nav-dropdown1
+{
+	
+	
+}
+
 .middle-nav-link
 {
+	height: 34px;
+	display: inline-block;
 	color:#ffffff;
+	width: 99.7px;
+	font-family: arial,sans-serif;	
+	text-align: center;
+	padding-top:9px;
+	font-size: 0.875em;
+    color: #fff;
+    font-weight: 800;
+    margin:0px;
+ border-right:solid 1px #4535a9;
 }
 #middle-nav-links
 {
-margin-top:8px;
+width:945px;
+margin-left:auto;
+margin-right: auto;
+height: 100%;
+ border-left:solid 1px #4535a9;
+}
+.nav-dropdown
+{
+	position: relative;
+	display: inline-block;
+}
+.nav-dropdown-inside
+{
+	
+}
+
+.temp
+{
+	width:100px;
+	height:200px;
+	clear: both;
+}
+
+.nav-dropdown-commen
+{
+	position:absolute;
+	width:99.7px;
+	background: #0173a9;
+	display:none;
+	margin-left: -3px;
+	border-left:1px solid #ffffff;
+	border-right:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+	box-shadow: 0px 3px 10px 1px #dddddd;
+}
+.commenWrapper
+{
+	position:relative;
+    display: inline-block;
+}
+.first-nav-link
+{
+	position:relative;
+    display: inline-block;
+}
+.nav-dropdown-commen a
+{
+	display: inline-block;
+	color:#ffffff;
+	font-size: 12px;
+	text-align:center;
+	width: 100%;
+	height:21px;
+	border-top: 1px dotted #ffffff;
+	padding: 3.5px 0px;
+	margin:0;
+}
+.nav-dropdown-commen a:hover
+{
+	font-size: 14px;
+	font-weight:800;
+}
+.temp
+{
+	height: 1000px;
+	width:100%;
+	background: blue;
+	clear: both;
 }
