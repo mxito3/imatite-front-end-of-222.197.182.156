@@ -1,0 +1,38 @@
+body,p,ul,div,a,span,input,img,li
+{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+#head
+{
+	height: 100px;
+	width:1004px;
+	margin-left:auto;
+	margin-right: auto;
+}
+#head-left
+{
+	float:left;
+	width:500px;	
+}
+#head-right
+{
+	float: right;
+	width:500px;
+	margin-top:30px;
+	
+}
+a
+{
+	text-decoration: none;
+}
+ul
+{
+	text-decoration: none;
+	list-style: none;
+}
+li
+{
+
+}
