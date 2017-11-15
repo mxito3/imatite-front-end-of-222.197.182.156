@@ -2,7 +2,7 @@
 * @Author: YP
 * @Date:   2017-11-07 00:06:45
 * @Last Modified by:   YP
-* @Last Modified time: 2017-11-14 23:50:56
+* @Last Modified time: 2017-11-15 20:14:08
 */
 #middle-scrollImages
 {
@@ -10,7 +10,7 @@
 	height:350px;
 	clear: both;
     position:relative;
-  
+    overflow: hidden;
 }
 #outWrapper
 {
@@ -34,6 +34,7 @@ width:544px;
 .scroll_commen_innnerCell
 {
 	/*display: inline-block;*/
+	/*position: relative;*/
 	width:456px;
 	height: 350px;
 	float: left;
@@ -63,6 +64,7 @@ width:544px;
 	position: absolute;
 	height:40px;
 	margin-left: 50px;
+	top:186px;
 }
 
 .scrollInnerText
@@ -85,7 +87,10 @@ width:544px;
     margin-left:-5px;
 	width:105px;
 }
-
+.btnHover
+{
+	background:#000000;
+}
 #scrollControl
 {
  position:absolute;
@@ -96,39 +101,94 @@ width:544px;
 {
 	cursor: pointer;
 }
-#rightScrollButton
-{
 
+@keyframes animateDiv0
+{
+from {background:black;}
+to {background:#293352;}
+}
+@keyframes animateDiv1
+{
+from {background:black;}
+to {background:#293352;}
+}
+@keyframes animateDiv2
+{
+from {background:black;}
+to {background: #a51c30;}
+}
+@keyframes animateDiv3
+{
+from {background:black;}
+to {background: #29d352;}
+}
+@keyframes animateDiv4
+{
+from {background:black;}
+to {background: #293352;}
+}
+@keyframes animateDiv5
+{
+from {background:black;}
+to {background: #0098b8;}
+}
+@keyframes animateDiv6
+{
+from {background:black;}
+to {background: #a51c30;}
+}
+@keyframes animateDiv7
+{
+from {background:black;}
+to {background: #29d352;}
 }
 
 
-#test
+
+.animateDiv0
 {
-	width:200px;
-	height:200px;
-	background:red;
+	animation: animateDiv0 0.5s;
+}
+.animateDiv1
+{
+	animation: animateDiv1 0.5s;
+}
+.animateDiv2
+{
+	animation: animateDiv2 0.5s;
+}
+.animateDiv3
+{
+	animation: animateDiv3 0.5s;
+}
+.animateDiv4
+{
+	animation: animateDiv4 0.5s;
+}
+.animateDiv5
+{
+	animation: animateDiv5 0.5s;
+}
+.animateDiv6
+{
+	animation: animateDiv6 0.5s;
+}
+.animateDiv7
+{
+	animation: animateDiv7 0.5s;
 }
 
 
-
-
-
-
-
-
-
-
-@keyframes myfirst
+#scroll_div0
 {
-from {background: red;}
-to {background: yellow;}
+	background: #29d352;
 }
-
-
 #scroll_div1
 {
 	background:#293352;
+
 }
+
 #scroll_div2
 {
 	background: #a51c30;
@@ -153,17 +213,17 @@ to {background: yellow;}
 {
 	background: #29d352;
 }
-
-
-
-
-
+#continueScrollButton
+{
+	display: none;
+}
 
 #btn1
 {
 
 	background:#293352;
 }
+
 #btn2
 {
 	background: #a51c30;
@@ -187,4 +247,36 @@ to {background: yellow;}
 #btn7
 {
 	background: #29d352;
+}
+#btn0:hover
+{
+	background: #000000;
+}
+#btn1:hover
+{
+	background: #000000;
+}
+#btn2:hover
+{
+	background: #000000;
+}
+#btn3:hover
+{
+	background: #000000;
+}
+#btn4:hover
+{
+	background: #000000;
+}
+#btn5:hover
+{
+	background: #000000;
+}
+#btn6:hover
+{
+	background: #000000;
+}
+#btn7:hover
+{
+	background: #000000;
 }

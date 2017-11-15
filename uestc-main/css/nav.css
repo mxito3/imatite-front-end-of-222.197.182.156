@@ -2,7 +2,7 @@
 * @Author: YP
 * @Date:   2017-11-05 20:40:34
 * @Last Modified by:   YP
-* @Last Modified time: 2017-11-14 21:28:32
+* @Last Modified time: 2017-11-15 20:17:34
 */
 #nav-link a
 {
@@ -14,8 +14,17 @@
 }
 #search
 {
+	position: relative;
 	margin-top: 13px;
 	float: right;
+	
+}
+#searchIcon
+{
+ position: absolute;
+ height: 20px;
+ top:8px;
+ z-index: -1;
 }
 #search_bar
 {
@@ -34,7 +43,7 @@
 	display:inline;
 	cursor:pointer;
 	top:6px;
-	opacity: 0.3;
+	
 }
 #more_search
 {
