@@ -1,0 +1,87 @@
+/*
+* @Author: YP
+* @Date:   2017-11-16 17:24:27
+* @Last Modified by:   YP
+* @Last Modified time: 2017-11-17 14:21:22
+*/
+body{min-width:1000px;}
+footer
+{
+	width:74.1%;
+	margin:0 auto;
+}
+body
+{
+	width:100%;
+}
+#bottomSearchLinks
+{
+	position: relative;
+	height:40px;
+	width:100%;
+	background:#005da0;
+	clear: both;
+	margin:0 auto;
+	top:10px;
+}
+#footer
+{	
+	position: relative;
+	height:76px;
+	width:100%;
+	background:#f2f2f2;
+	clear: both;
+	margin:0 auto;
+	top:30px;
+	text-align: center;
+	color: #333333;
+	font-size:12px;
+}
+#bottomSearchLinks form
+{
+	display: inline-block;
+}
+#schoolHot
+{
+	position:relative;
+	width:40%;
+	left:40px;
+	top:10px;
+}
+#schoollHotSelect
+{
+	width:100%;
+}
+#otherSchool
+{
+	position: absolute;
+	top:10px;
+	right:29.2%;
+    width:15.4%;
+}
+#otherScholLinks
+{
+	display: inline-block;
+	width:154px;
+}
+#schoolDepartment
+{
+	position: absolute;
+	width:15.4%;
+	top:10px;
+	right:6.7%;
+}
+#schoolDepartmentLinks
+{
+	width:100%;
+}
+#footer a
+{
+	color:#333333;
+}
+#controlFooter
+{
+	top:10px; 
+	position:relative;
+	line-height: 20px;
+}

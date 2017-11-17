@@ -1,0 +1,326 @@
+/*
+* @Author: YP
+* @Date:   2017-11-15 20:32:15
+* @Last Modified by:   YP
+* @Last Modified time: 2017-11-17 13:08:20
+*/
+
+#mainContent
+{
+	position: relative;
+	width:74.1%;
+	left:13%;
+	z-index: 2;
+}
+
+
+#mainContentLeft_top
+{
+	width:100%;
+	height:36px;
+	border-bottom:solid 3px #27ae61;
+}
+#leftSpan
+{
+	position: relative;
+	color:#005da0;
+	top: 10px;
+	left:15px;
+}
+#rightLink
+{
+	position: relative;
+	float:right;
+	color: #838787;
+	top: 12px;
+}
+
+#mainContentmiddle_left li:hover
+{
+	background: #f2f2f2;
+
+}
+#mainContentmiddle_left li a:hover
+{
+	color:#3c6fa5;
+}
+#mainContentmiddle_left ul
+{
+	position: relative;
+	background: #005da0;;
+
+	padding-top:15px;
+	margin:0;
+	width:100%;
+}
+#mainContentmiddle_left li 
+{
+	width:100%;
+	list-style: none;
+	text-align: center;
+	line-height: 30px;
+	list-style: none;
+
+}
+
+#mainContentmiddle_left a
+{
+	width:100%;
+	color:#ffffff;
+	text-decoration: none;
+	display:block;
+}
+#mainContentLeft_bottom
+{
+	position:absolute;
+	border-top:3px solid #a369bd;
+	border-bottom:3px solid #a369bd;
+	width:40.8%;
+	height:120px;
+	clear: both;
+	background: #f2f2f2;
+}
+#academicHead
+{
+	display:inline-block; 
+	position: relative;
+	width:74px;
+	padding:6px 0;
+	text-align: center;
+	background: #a369bd;
+	color:#ffffff;
+	
+}
+#academic
+{
+	line-height: 22px;
+}
+#academic ul
+{
+	top:-30px;
+	position: relative;
+	left:26.2%;
+}
+#academic a
+{
+	font-size: 12px;
+	color:#5e5e5e;
+}
+#academic ul a:hover
+{
+	color:#fe3c3c;
+}
+#academic_more
+{
+	position:absolute;
+	float: right;
+	bottom:2px;
+	right:4px;
+}
+#focus_head
+{
+	width:100%;
+	height:36px;
+	border-bottom:solid 3px #e74b3c;
+}
+#focusHead_focusLlink
+{
+	position: relative;
+	top:10px;
+	left:15px;
+	color:#005da0;
+}
+#focusHead_link
+{
+	position: absolute;
+	right:5px;
+	top:12px;
+	color: #838787;
+	font-size: 12px;
+}
+
+#focus_mainContent 
+{
+	position: relative;
+	padding-left:20px;
+	
+}
+#focus_mainContent a
+{
+	font-size: 12px;
+	color: #5e5e5e;
+	position: relative;
+}
+#focus_mainContent a:hover
+{
+	color:#fd4d41;
+}
+#focus_mainContent p
+{
+	box-sizing: border-box;
+	border-bottom: dashed 1px #cccccc;
+	line-height: 30px; 
+}
+.time
+{
+	font-size: 12px;
+	position: absolute;
+	right:10px;
+	color: #5e5e5e;
+}
+#newsUpdate_head
+{
+	position: relative;
+	top:10px;
+	border-bottom:solid 3px #eeaf79;
+}
+#newsUpdate_head_title
+{
+	display: inline-block;
+	color:#005da0;
+	position: relative;
+/*	padding-bottom: 2px;*/
+	left:15px;
+}
+#newsUpdate_head_link
+{
+	position: absolute;
+	right:5px;
+	font-size: 12px;
+	color:#838787;
+}
+.newsList
+{
+	position:relative;
+	top:10px;
+	font-size:12px;
+	padding-left:20px;
+}
+#mainContentLeft_middle
+{
+height:380px;
+}
+
+
+.newsList a
+{
+	font-size: 12px;
+	color: #5e5e5e;
+}
+.mainContent-innerPicture
+{
+	
+	padding-right: 15px;
+	
+}
+#newsUpdate_mainContent p
+{
+	box-sizing: border-box;
+	border-bottom:dashed 1px #cccccc;
+	line-height: 30px;
+}
+#newsUpdate_mainContent a:hover
+{
+	color:#fd4d41;
+}
+.hide
+{
+	display:none;
+	color:#5e5e5e;
+	font-size:12px;
+}
+.tabBox
+{
+	color:#5e5e5e;
+	font-size:12px;
+}
+#mainContentRight
+{
+	width:57.9%;
+	height:100%;
+	float:right;
+	background: #f2f2f2;
+	padding-bottom:27px;
+	z-index: -1;
+}
+#mainContentLeft
+{
+	width:40.8%;
+	height:100%;
+	float:left;
+	background: #f2f2f2;
+	padding-bottom:20px;
+	overflow: hidden;
+	z-index:-1;
+}
+#mainContentmiddle_right
+{
+	padding-left: 3%;
+	float: right;
+	width:77%;
+	overflow: hidden;
+ 	padding-bottom: 18px;
+}
+#mainContentmiddle_left
+{
+
+	width:20%;
+	float: left;
+}
+.tabBox
+{
+	position: relative;
+	width:248px;
+	font-size: 12px;
+	line-height: 20px;
+	top:15px;
+	height:100%;
+}
+.tabBox a
+{
+    display: inline-block;
+  	color: #5e5e5e;
+    text-overflow:ellipsis;
+    width:198px;
+  	overflow: hidden;
+    white-space: nowrap;/*让内容显示在一行*/
+}
+.tips
+{
+	float: left;
+}
+.tabBox p
+{
+	white-space: nowrap;
+}
+.tabBox a:hover
+{
+	color:#fe3c3c;
+}
+#firstOnShowBox
+{
+	display: block;
+}
+#paddingBottom
+{
+	display: inline-block;
+	height:15px;
+	background: #f2f2f2;
+	width:100%;
+	position: relative;
+	top:-3px;
+}
+#mainContentBacground
+{
+	position: absolute;
+	display: inline-block;
+	clear: both;
+    right:-14.3%;
+
+}
+#mainContentBacground img
+{
+	width: 550px;
+    height: 550px;
+    z-index: 1;
+}
